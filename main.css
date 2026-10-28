@@ -1,17 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended');
+@import url('https://fonts.googleapis.com/css?family=Pirata+One');
+@import url('https://fonts.googleapis.com/css?family=Metal');
+
+body{
+    background: linear-gradient(to bottom, #FFFFFF 0%, #999999 20%, #000000 85%, #440000 100%);
+    opacity: 0.85; 
+}
 
 p {
-    font-size: 40px;
-    text-align: center;
+    font-size: 24px;
+    text-align: left;
+    margin: 50px;
+    color: white;
+    font-family:'Metal';
+    width: 75%;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: left;
+    margin: 50px;
+    color: white;
+    font-family:'Metal';
+    width: 75%;
+}
+
+img{
+    display: inline-block;
+    width: 50px;
+    margin-left: 48%;
 }
 
 .fancy-text{
-    font-size: 44px;
-    text-align:center;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(35, 35, 35)
 }
 
 .fancy-text:hover{
-    font-family: "Libre Barcode 39 extended";
-    font-size: 50px;
-    color: rgb(108, 200, 150);
+    font-family: "Pirata One";
+    font-size: 64px;
+    color: rgb(68, 0, 0);
+    text-align: center;
 }
+
