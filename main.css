@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended');
+
+p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.fancy-text{
+    font-size: 44px;
+    text-align:center;
+}
+
+.fancy-text:hover{
+    font-family: "Libre Barcode 39 extended";
+    font-size: 50px;
+    color: rgb(108, 200, 150);
+}
