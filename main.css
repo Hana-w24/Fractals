@@ -24,6 +24,17 @@ h2 {
     width: 75%;
 }
 
+span{
+    text-decoration: italic;
+}
+
+div{
+    font-size: 12px;
+    color:#FFFFFF;
+    font-family:'Metal';
+    text-align: center;
+}
+
 img{
     display: inline-block;
     width: 50px;
